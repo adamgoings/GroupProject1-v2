@@ -54,9 +54,6 @@ nav {
   box-shadow:2px 2px 10px black;
 }
 
-h3 {
-  text-align: center;
-}
 
 li {
   border:1px solid white;
@@ -93,6 +90,7 @@ label {
 #devOps{
   display: flex;
   flex-direction:row;
+  margin-left: 20%;
 
 }
 .circle {
@@ -138,8 +136,7 @@ box-shadow:2px 2px 10px black;
   justify-content: flex-end;
 }
 .socialMediaIcons{
-  margin-left: 25px;
-  
+  margin-left: 25px; 
 }
 
 #footer-copyright {
@@ -155,4 +152,7 @@ box-shadow:2px 2px 10px black;
   background-color: #0d47a1;
 }
 
+footer {
+  text-align: center;
+}
 
