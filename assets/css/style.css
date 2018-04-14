@@ -17,6 +17,7 @@ body {
 .jumbotron {
   background-image: url("../images/WFH1.jpg"); 
   background-position: center top;
+  height: 400px;
 
 }
 
@@ -88,9 +89,6 @@ label {
 }
 
 
-.page-footer {
-  background-color: #7986cb;
-}
 #devOps{
   display: flex;
   flex-direction:row;
