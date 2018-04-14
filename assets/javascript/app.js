@@ -60,7 +60,7 @@ $("#searchBtn").click(function () {
 $("#goBtn").click(function () {
   var address = $("#address").val().trim().replace(/\s/g, "+");
   var title = $("#title").val().trim().replace(/\s/g, "+");
-  var mapUrl = `https://maps.googleapis.com/maps/api/place/textsearch/json?query=${address}&search=${title}&key=AIzaSyD53-ljlOxbdXzMatJky9Voz8M4RLig7kw`;
+  var mapUrl = `https://maps.googleapis.com/maps/api/place/textsearch/json?query=${address}&search=${title}&key=AIzaSyAQ8pKhLCXAwbt00iqGb_Mg5ZN6ZY-6138`;
   var zipQueryURL = `https://api.ziprecruiter.com/jobs/v1?search=${title}%20Job&location=${address}&radius_miles=25&days_ago=10&jobs_per_page=10&page=1&api_key=gjetj6yzdta73384442bezn9sp8tfwbe`;
 
   //placing the GET call to the maps API and returning a lat and lng that are entered into the location
