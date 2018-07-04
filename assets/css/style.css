@@ -21,17 +21,17 @@ body {
 
 }
 
-#searchBtn{
+#searchBtn {
   margin-bottom: 10px;
   background-color: #c62828;
   color: whitesmoke;
 }
 
-#goBtn{
+#goBtn {
   position: relative;
   float: right;
   clear: both;
-  background-color: #c62828;
+  background-color: green;
   color: whitesmoke;
 }
 
@@ -47,10 +47,9 @@ nav {
 #leftCol {
   box-shadow:2px 2px 10px whitesmoke;
   min-height: 50%;
-  /* margin-top: 5%; */
 }
 
-#map{
+#map {
   box-shadow:2px 2px 10px black;
 }
 
@@ -78,16 +77,18 @@ label {
 }
 
 #searchDiv {
- border:1px solid black;
-  /* border-radius: 10px; */
+  border:1px solid black;
   box-shadow:2px 2px 10px darkgray;
   display:none;
   width: 100%;
   background-color: white;
 }
 
+footer {
+  text-align: center;
+}
 
-#devOps{
+#devTeam {
   display: flex;
   flex-direction:row;
   margin-left: 20%;
@@ -99,60 +100,56 @@ label {
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
   border-radius: 50px;
-  
 }
 
-#tim{
+#tim {
  background-image: url("../images/tim.png");
-background-size: cover;
-box-shadow:2px 2px 10px black;
+ background-size: cover;
+ box-shadow:2px 2px 10px black;
 }
-#adam{
+
+#adam {
   background-image: url("../images/adam.png");
  background-size: cover;
  box-shadow:2px 2px 10px black;
  }
 
- #tony{
+ #tony {
   background-image: url("../images/tony.png");
  background-size: cover;
  box-shadow:2px 2px 10px black;
  }
 
- #ace{
+ #ace {
   background-image: url("../images/ace.png");
- background-size: cover;
- box-shadow:2px 2px 10px black;
+  background-size: cover;
+  box-shadow:2px 2px 10px black;
  }
 
- #wal{
+ #wal {
   background-image: url("../images/wal.png");
   background-size: cover;
   box-shadow:2px 2px 10px black;
  }
 
-#iconsRow{
-  display: flex;
-  justify-content: flex-end;
-}
-.socialMediaIcons{
-  margin-left: 25px; 
-}
-
 #footer-copyright {
   background-color: #0d47a1;
-  text-align: center;
+  margin-top: 3%;
+}
+
+#iconsRow {
+  margin-top: 3%;
+  margin-left: 45%;
 }
 
 #jobs_widget_link {
   text-align: center;
 }
 
+
 .page-footer {
   background-color: #0d47a1;
 }
 
-footer {
-  text-align: center;
-}
+
 
